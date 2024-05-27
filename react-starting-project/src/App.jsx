@@ -3,9 +3,8 @@ function App() {
   return (
     <main>
       <h1>Hello World!</h1>
-      <Post></Post> 
-      <Post />
-      <Post />
+      <Post author="Maximilian" body="React.js is awesome!" />
+      <Post author="Manual" body="Check out the full course!" />
     </main>
   );
 }
