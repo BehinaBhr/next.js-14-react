@@ -7,10 +7,10 @@ function Post(props) {
     // <div style={{ color: "red", textAlign: "left" }}>
 
     // scope CSS styles to not clash with others globally in index.css
-    <div className={styles.post}>
+    <li className={styles.post}>
       <p className={styles.author}>{props.author}</p>
       <p className={styles.text}>{props.body}</p>
-    </div>
+    </li>
   );
 }
 export default Post;
